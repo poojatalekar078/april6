@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+
+
+
+<!-- table creation -->
+
+<h1 class="text-center">Table Creation</h1>
+<div>
+<h1>Table creation</h1>
+<table class="table">
+<thead>
+<tr>
+     <th>fullName</th>
+       <th>Father Name</th>
+       <th>Contact</th>
+    </tr>
+</thead>
+    <tbody>
+        <tr>
+         <td>pooja</td>
+         <td>rajesh</td>
+         <td>8431474349</td>
+        </tr>
+       <td>Raghu</td>
+        <td>rajesh</td>
+        <td>8431474349</td>
+    </tbody>
+</table>
+</div>
+
+<!-- alerts -->
+
+<h1 class="text-center">Alerts</h1>
+
+<div class="container mt-5">
+    <div class="alert alert-success alert-dismissible fade show"><strong>Hey! pooja its time </strong><button type="button" class="close" data-dismiss="alert">&times;</button>
+    </div>
+    
+</div>
+
+
+    <!-- Alert with Link -->
+
+    <div class="container mt-5">
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            this is <a href="#" class="alert-link">link</a>
+            <button type="button" data-dismiss="alert" aria-label="close">
+                <span class="role"  aria-label="hidden">&times;</span>
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- alert-links -->
+
+<h1 class="text-center">Alert links</h1>
+<div class="container mt-5">
+    <div class="alert alert-primary" role="alert">
+      This is a primary alert with a <a href="table.html" class="alert-link">link</a> Click the link to trigger an alert!
+    </div>
+    
+<!-- 
+    closing links -->
+    <h1 class="text-center"> closing links</h1>
+
+    <div class="container mt-4">
+<div class="alert alert-success alert-dismissible">
+  <button type="button" class="close" data-dismiss="alert">&times; </button>
+
+    <strong>success</strong>this is warning msg
+</div>
+ </div><br>
+
+ <!-- Buttons -->
+
+ <h1 class="text-center"> Buttons</h1>
+  <div class="container mt-4">
+ <button type="button" class="btn btn-primary">Click me</button>
+</div>
+
+
+<!-- button link -->
+
+<h1 class="text-center">button link</h1>
+<a href="#" class="btn btn-primary">link bro</a>
+
+
+<!-- 
+only color button outline -->
+
+<h1>button outline only color visible</h1>
+<div class="container mt-3">
+<button type="button" class="btn btn-outline-primary btn-sm">im here click me</button></div>
+
+
+
+<!-- full width container -->
+<h1 class="text-center">Block level Elements</h1>
+<div>
+<button type="button" class="btn btn-success btn-block">im here click me</button></div>
+
+<!-- Active and Disabled buttons -->
+
+<h1 class="text-center">Active and Disabled Buttons</h1>
+<div>
+  <button type="button" class="btn btn-dark active">button</button>
+  <button type="button" class="btn btn-dark Disabled">button</button></div><br>
+
+<!-- 
+  Spinner buttons
+   -->
+<h1 class="text-center">Spinner buttons</h1>
+
+   <div class="container">
+    <button class="btn btn-primary">
+    <span class="spinner-border spinner-border-sm"></span>
+    Loading..
+  </button>
+
+</div><br>
+
+
+<div class="container">
+  <button class="btn btn-dark">
+    <span class="spinner-border spinner-border-lg"></span>
+    im landing
+  </button>
+</div><br><br>
+
+
+<!-- spinner grow -->
+<h1 class="text-center">spinner grow</h1>
+<div class="container">
+  <button class="btn btn-primary">
+    <span class="spinner-grow spinner-grow-xl"></span>
+
+    loading........
+  </button>
+</div><br>
+
+<h4 class="text-center">Group Buttons</h4>
+<div class="container mx-3">
+  <div class="btn-group">
+    <button type="button" class=" btn btn-primary">heyyyy</button>
+    <button type="button" class="btn btn-primary">heyyyy</button>
+    <button type="button" class="btn btn-primary">heyyyy</button>
+  </div>
+</div>
+</div><br>
+
+
+<div class="container mx-3">
+  <div class="btn-group btn-group-lg">
+    <button type="button" class=" btn btn-primary">heyyyy</button>
+    <button type="button" class="btn btn-primary">heyyyy</button>
+    <button type="button" class="btn btn-primary">heyyyy</button>
+  </div>
+</div>
+</div>
+
+<!-- 
+Nesting buttons groups -->
+
+
+<h1 class="text-center">Nesting button groups</h1>
+<div class="container">
+  <div class="btm-group">
+    <button type="button" class="btn btn-primary">primary</button>
+    <button type="button" class="btn btn-primary">primary</button>
+<div class="btn-group">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+    sony
+  </button>
+<div class="dropdown-menu">
+ <a class="dropdown-item" href="#">tablet</a>
+ <a class="dropdown-item" href="#">smartphone</a>
+
+</div>
+</div>
+</div>
+</div>
+
+
+<!-- spilt buttons
+<span class="caret"></span> -->
+
+
+<!-- 
+vertical buttons -->
+
+
+
+<h1 class="text-center">Vertical button groups</h1>
+<div class="container">
+  <div class="btm-group-vertical">
+    <button type="button" class="btn btn-primary">primary</button>
+    <button type="button" class="btn btn-primary">primary</button>
+<div class="btn-group">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+    sony
+  </button>
+<div class="dropdown-menu">
+ <a class="dropdown-item" href="#">tablet</a>
+ <a class="dropdown-item" href="#">smartphone</a>
+
+</div>
+</div>
+</div>
+</div>
+
+ <!-- badges -->
+
+<h1 class="text-center">Badges</h1>
+<div class="container">
+<h1>im the heading <span class="badge badge-primary">new</span></h1>
+<h1>Example heading <span class="badge badge-secondary">New</span></h1>
+</div>
+
+
+<!-- contextual badge -->
+
+
+<div class="container">
+  <span class="badge badge-primary">primary</span>
+</div>
+
+<!-- 
+pill badges -->
+<h1 class="container">pill badges</h1>
+<div class="container">
+  <span class="badge  badge-pill badge-secondary">hello</span>
+</div>
+
+
+
+<!-- 
+badges inside the Elements -->
+
+
+<h1 class="text-center">
+  badges inside the Elements</h1>
+  <div class="container">
+    <button type="button" class="btn btn-primary">messages
+      <span class="badge badge-dark">4</span>
+    </button>
+  </div><br>
+
+
+<h1 class="text-center">ProgressBar</h1>
+
+
+<div class="container">
+  <div class=progress>
+    <div class=progress-bar style="width:10%">
+</div>
+  </div>
+</div> <br>
+
+
+<div class="container">
+  <div class="progress" style="height:20px">
+    <div class="progress-bar" style="width:10%; height: 20px">
+</div>
+  </div>
+</div><br>
+
+
+<!-- adding the color to the progres bar -->
+
+
+<!-- <div class="progress" style="height:20px">
+    <div class="progress-bar bg-dark progress-bar-striped" style="width:10%; height:60px">
+</div><br><br> -->
+
+
+<div class="container">
+<div class="progress" style="height:20px">
+  <div class="progress-bar bg-dark progress-bar-striped progress-bar-animated" style="width:10%; height:60px">
+    <!-- <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:40%"></div> -->
+</div>
+</div><br>
+
+
+
+<!-- <div class="progress">
+  <div class="progress-bar bg-info progress-bar-striped" style="width:50%"></div>
+</div> -->
+
+<!-- 
+Spinner -->
+
+<h1 class="text-center">Spinner</h1>
+
+<div class="spinner-border"></div>
+<div class="spinner-border bg-dark"></div>
+<div class="spinner-border bg-success"></div>
+<div class="spinner-border text-primary"></div>
+
+
+<h4 class="text-center">spinner-grow</h4>
+<div class="spinner-grow bg-info" ></div>
+
+
+<h4>Spinner Size</h4>
+<div class="spinner-border spinner-border-sm"></div>
+<div class="spinner-grow spinner-grow-xl"></div>
+
+<h4 class="text-center"></h4>
+<button class="btn btn-dark">
+  <span class="spinner-border spinner-border-sm"></span>loading.........
+</button>
+
+<button class="btn btn-dark" Disabled>
+  <span class="spinner-border spinner-border-sm" ></span>loading.........
+</button>
+ 
+
+<button class="btn btn-dark" active>
+  <span class="spinner-border spinner-border-sm" ></span>loading.........
+</button><br>
+ 
+
+
+<h4 class="text-center">Pagination</h4>
+
+<!-- <ul class="pagination">
+  <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+  <li class="page-item"><a class="page-link" href="#">1</a></li>
+  <li class="page-item"><a class="page-link" href="#">2</a></li>
+  <li class="page-item"><a class="page-link" href="#">3</a></li>
+  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+</ul> -->
+
+
+<!-- <ul class="pagination">
+  <li class="page-item"><a  class="page-link" href="#">Previous</a></li>
+  <li class="page-item"><a  class="page-link" href="#">1</a></li>
+  <li class="page-item"><a  class="page-link" href="#">2</a></li>
+  <li class="page-item"><a  class="page-link" href="#">3</a></li>
+  <li class="page-item"><a  class="page-link" href="#">Next</a></li>
+</ul> -->
+
+
+<ul class="pagination">
+  <li class="page-item disabled"><a  class="page-link" href="#">Previous</a></li>
+  <li class="page-item disabled"><a  class="page-link" href="#">1</a></li>
+  <li class="page-item  active"><a  class="page-link" href="#">2</a></li>
+  <li class="page-item active"><a  class="page-link" href="#">3</a></li>
+  <li class="page-item"><a  class="page-link" href="#">Next</a></li>
+</ul>
+
+<!-- pagination Size -->
+
+
+<ul class="pagination pagination-sm justify-content-end"  style="margin: 20px;">
+  <li class="page-item disabled"><a  class="page-link" href="#">Previous</a></li>
+  <li class="page-item disabled"><a  class="page-link" href="#">1</a></li>
+  <li class="page-item  active"><a  class="page-link" href="#">2</a></li>
+  <li class="page-item active"><a  class="page-link" href="#">3</a></li>
+  <li class="page-item"><a  class="page-link" href="#">Next</a></li>
+</ul>
+
+
+
+
+
+<h2 class="justify-content-center"></h2>
+<ul class="breadcrumb breadcrumb-lg">
+  <li class="breadcrumb-item disabled"><a href="#">home</a></li>
+  <li class="breadcrumb-item active"><a href="#">about</a></li>
+</ul>
+
+<div class="container">
+  <h1>basic table</h1>
+  <ul class="list-group">
+    <li class="list-group-item active">Fistname</li>
+    <li class="list-group-item">secondName</li>
+    <li class="list-group-item">Third name</li>
+  </ul>
+</div>
+</div><br>
+
+<h4 class="text-center">list group with linked items</h4>
+<div class="container">
+  <ul class="list-group">
+    <a href="#" class="list-group-item disabled">Firstname</a>
+    <a href="#" class="list-group-item">secoundname</a>
+    <a href="#" class="list-group-item list-group-item active">thirdname</a>
+  </ul>
+</div><br>
+
+
+<h4>flush/remove border</h4>
+<div class="container">
+  <ul class="list-group-flush">
+    <a href="#" class="list-group-item ">Firstname</a>
+    <a href="#" class="list-group-item">secoundname</a>
+    <a href="#" class="list-group-item ">thirdname</a>
+  </ul>
+</div>
+
+<h4>Harizontal list group</h4>
+<div class="container">
+  <ul class="list-group list-group-horizontal">
+    <a href="#" class="list-group-item ">Firstname</a>
+    <a href="#" class="list-group-item">secoundname</a>
+    <a href="#" class="list-group-item ">thirdname</a>
+  </ul>
+</div>
+
+
+<h1>contextual classes</h1>
+<div class="container">
+  <ul class="list-group list-group-vertical">
+    <a href="#" class="list-group-item list-group-item-primary ">Firstname</a>
+    <a href="#" class="list-group-item list-group-item-success">secoundname</a>
+    <a href="#" class="list-group-item ">thirdname</a>
+  </ul>
+</div>
+
+
+<h1>Action</h1>
+<div class="container">
+  <ul class="list-group list-group-vertical">
+    <a href="#" class="list-group-item list-group-item-action list-group-item-primary ">Firstname</a>
+    <a href="#" class="list-group-item list-group-item-action list-group-item-success">secoundname</a>
+    <a href="#" class="list-group-item ">thirdname</a>
+  </ul>
+</div>
+
+
+<!-- list group with badges -->
+
+<!-- for this we used d-flex and justify-content-between and align-item-center and span class for badges -->
+
+
+<h1 class="justify-content-center">list-group badges</h1>
+<div class="container">
+  <ul class="list-group">
+    <li class="list-group-item  d-flex justify-content-between align-item-center">
+      inbox
+      <span class="badge badge-dark badge-pill">12</span>
+    </li>
+    <li class="list-group-item  d-flex justify-content-between align-item-center">
+      cart
+      <span class="badge badge-dark badge-pill">12</span>
+    </li>
+  </ul>
+</div><br><br>
+
+
+<h3>Basic card</h3>
+
+<div class="container">
+  <div class="card"></div>
+
+    <div class="card-header bg-dark">header</div>
+    <div class="card-body bg-primary">Basic card</div>
+    <div class="card-footer">footer</div>
+  </div>
+</div>
+
+
+
+<div class="container">
+  <div class="card">
+    <div class="card-body">
+      <div class="card-title">card-title</div>
+      <div class="card-text">card contents of the paragraph</div>
+      <a href="#" class="card-link">im the link here</a>
+      <a href="#" class="card-link">im the secound link here</a>
+    </div>
+  </div>
+</div>
+
+<!-- 
+card image -->
+
+  <div class="card" style="width:350px;">
+    <div class="card-body">
+      <img  class="card-img-top" src="4.png" alt="card img">
+        <div class="card-title">pooja</div><br>
+        <div class="card-text">here is the my some information</div>
+        <a href="#" class="btn btn-primary">see mt profile</a>
+      </div>
+    </div>
+  </div><br>
+
+<!-- 
+   link hover link -->
+
+<h3>Stretched Link</h3>
+<div class="card" style="width:350px;">
+  <div class="card-body">
+    <img  class="card-img-top" src="4.png" alt="card img">
+      <div class="card-title">pooja</div><br>
+      <div class="card-text">here is the my some information</div>
+      <a href="#" class="btn btn-primary Stretched-link">see mt profile</a>
+    </div>
+  </div>
+</div><br>
+
+
+<!-- img over text -->
+
+
+<h4>card img overlay</h4>
+<div class="card" style="width:350px;">
+  <div class="card-body">
+    <img  class="card-img-top" src="4.png" alt="card img">
+    <div class="card-img-overlay">
+      <div class="card-title">pooja</div>
+      <div class="card-text">here is the my some information</div>
+      <a href="#" class="btn btn-primary">see mt profile</a>
+    </div>
+  </div>
+</div>
+</div><br>
+
+<!-- card columns -->
+
+
+
+<div class="card" style="width:350px;">
+  <div class="card-columns">
+  <div class="card-body bg-info">
+    <!-- <img  class="card-img-top" src="4.png" alt="card img"> -->
+    <!-- <div class="card-img-overlay"> -->
+      <div class="card-title">pooja</div>
+      <div class="card-text">here is the my some information</div>
+      <a href="#" class="btn btn-primary">see mt profile</a>
+    </div>
+  </div>
+</div>
+</div><br>
+
+
+
+  <div class="card-columns">
+    <div class="card  bg-primary">
+      <div class="card-body"></div>
+      <div class="card-text text-center">here is my information</div>
+
+    </div>
+      <div class="card  bg-primary">
+      <div class="card-body"></div>
+      <div class="card-text text-center">here is my information</div>
+
+    </div>
+
+    <div class="card  bg-primary">
+      <div class="card-body"></div>
+      <div class="card-text text-center">here is my information</div>
+
+    </div>
+    
+    <div class="card  bg-primary">
+      <div class="card-body"></div>
+      <div class="card-text text-center">here is my information</div>
+
+    </div>
+    </div>
+
+<!-- card deck -->
+
+
+
+<div class="card-deck">
+  <div class="card bg-info">
+    <div class="card-body text-center">
+      <div class="card-text">Hello</div>
+      <div class="card-text">Hello</div>
+      <div class="card-text">Hello</div>
+      <div class="card-text">Hello</div>
+      <div class="card-text">Hello</div>
+    </div> 
+  </div>
+
+  <div class="card bg-info">
+    <div class="card-body text-center">
+      <div class="card-text">Hello</div>
+      <div class="card-text">Hello</div>
+      <div class="card-text">Hello</div>
+      <div class="card-text">Hello</div>
+      <div class="card-text">Hello</div>
+    </div>
+    
+  </div>
+  <div class="card bg-info">
+    <div class="card-body text-center">
+      <div class="card-text">Hello</div>
+      <div class="card-text">Hello</div>
+      <div class="card-text">Hello</div>
+      <div class="card-text">Hello</div>
+      <div class="card-text">Hello</div>
+    </div>
+    
+  </div>
+  <div class="card bg-info">
+    <div class="card-body text-center">
+      <div class="card-text">Hello</div>
+      <div class="card-text">Hello</div>
+      <div class="card-text">Hello</div>
+      <div class="card-text">Hello</div>
+      <div class="card-text">Hello</div>
+    </div>
+    
+  </div>
+</div><br><br>
+
+<!-- card group -->
+
+
+<div class="card-group">
+  <div class="card bg-info">
+    <div class="card-body text-center">
+      <div class="card-text">hello</div>
+      <div class="card-text">hello</div>
+      <div class="card-text">hello</div>
+      <div class="card-text">hello</div>
+      <div class="card-text">hello</div>
+      <div class="card-text">hello</div>
+
+    </div>
+  </div>
+  <div class="card bg-primary">
+    <div class="card-body text-center">
+      <div class="card-text">hello</div>
+      <div class="card-text">hello</div>
+      <div class="card-text">hello</div>
+      <div class="card-text">hello</div>
+      <div class="card-text">hello</div>
+      <div class="card-text">hello</div>
+
+    </div>
+  </div>
+  <div class="card bg-success">
+    <div class="card-body text-center">
+      <div class="card-text">hello</div>
+      <div class="card-text">hello</div>
+      <div class="card-text">hello</div>
+      <div class="card-text">hello</div>
+      <div class="card-text">hello</div>
+      <div class="card-text">hello</div>
+
+    </div>
+  </div>
+</div><br><br>
+
+
+<div class="dropdown">
+  <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" >
+  dropdown button
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">hi</a>
+    <a  class="dropdown-item" href="#">hello</a>
+    <a  class="dropdown-item"  href="#">hey</a>
+  </div>
+</div>
+
+<!-- Dropdown Divider -->
+<h2>Dropdown Divider</h2>
+
+<div class="dropdown">
+  <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" >
+  dropdown button
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item active" href="#">hi</a>
+    <a  class="dropdown-item" href="#">hello</a>
+    <a  class="dropdown-item disabled"  href="#">hey</a>
+    <div class="dropdown-divider"></div>
+    <a href="#" class="dropdown-item">another link</a>
+  </div>
+</div>
+
+<h2>Dropdown position-right</h2>
+
+<div class="dropdown dropright">
+  <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" >
+  dropdown button
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item active" href="#">hi</a>
+    <a  class="dropdown-item" href="#">hello</a>
+    <a  class="dropdown-item disabled"  href="#">hey</a>
+    <div class="dropdown-divider"></div>
+    <a href="#" class="dropdown-item">another link</a>
+  </div>
+</div>
+
+<h2>Dropdown position left</h2>
+
+<div class="dropdown dropleft float-right">
+  <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" >
+  dropdown button
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item active" href="#">hi</a>
+    <a  class="dropdown-item" href="#">hello</a>
+    <a  class="dropdown-item disabled"  href="#">hey</a>
+    <div class="dropdown-divider"></div>
+    <a href="#" class="dropdown-item">another link</a>
+  </div>
+</div>
+
+<h2>Dropdown dropup</h2>
+
+<div class="dropdown dropup float-left">
+  <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" >
+  dropdown button
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item active" href="#">hi</a>
+    <a  class="dropdown-item" href="#">hello</a>
+    <a  class="dropdown-item disabled"  href="#">hey</a>
+    <div class="dropdown-divider"></div>
+    <a href="#" class="dropdown-item">another link</a>
+  </div>
+</div><br>
+
+<h2>Dropdown Text</h2>
+
+
+<div class="dropdown dropup float-left">
+  <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" >
+  dropdown button
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item " href="#">hi</a>
+    <a  class="dropdown-item" href="#">hello</a>
+    <a  class="dropdown-item "  href="#">hey</a>
+    <div class="dropdown-divider"></div>
+    <a href="#" class="dropdown-item">another link</a>
+    <p class="dropdown-item-text">hey</p>
+  </div>
+</div><br><br><br>
+
+
+<div class="btn-group">
+  <button type="button" class="btn btn-primary">Apple</button>
+  <button type="button" class="btn btn-primary">Samsung</button>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+       Sony
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Tablet</a>
+      <a class="dropdown-item" href="#">Smartphone</a>
+    </div>
+  </div>
+</div>
+
+<h2>Split Button Dropdowns</h2>
+
+<div class="btn-group">
+  <button type="button" class="btn btn-primary">Primary</button>
+  <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Link 1</a>
+    <a class="dropdown-item" href="#">Link 2</a>
+  </div>
+</div>
+
+<h1>Vertical Button Group</h1>
+
+<div class="btn-group-vertical">
+ 
+  <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">helllo button
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Link 1</a>
+    <a class="dropdown-item" href="#">Link 2</a>
+  </div>
+</div><br><br>
+
+<h2>Basic Collapsible</h2>
+
+<div class="container">
+  <button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#demo">
+    simple collapse button
+  </button>
+  <div id="demo" class="collapse">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div>
+</div><br><br>
+
+<!-- 
+using href  -->
+
+<div class="container">
+  <button type="button" class="btn btn-dark" href="#demo" data-toggle="collapse">click me</button>
+   
+ 
+  <div id="demo" class="collapse">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div>
+</div><br><br>
+
+
+
+<!-- accordion -->
+
+
+ <h1>accordion</h1>
+<div id="accordion">
+  <div class="card">
+    <div class="card-header">
+      <a class="card-link" data-toggle="collapse" href="#collapseOne">
+        Collapsible Group Item #1
+      </a>
+    </div>
+    <div id="collapseOne" class="collapse show" data-parent="#accordion">
+      <div class="card-body">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <a class="card-link" data-toggle="collapse" href="#collapseOne">
+          Collapsible Group Item #1
+        </a>
+      </div>
+      <div id="collapseOne" class="collapse show" data-parent="#accordion">
+        <div class="card-body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <a class="card-link" data-toggle="collapse" href="#collapseOne">
+            Collapsible Group Item #1
+          </a>
+        </div>
+        <div id="collapseOne" class="collapse show" data-parent="#accordion">
+          <div class="card-body">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </div>
+        </div>
+    
+
+        <!-- nav bar -->
+        <h1>Nav bar</h1>
+   <div class="container">
+  <ul class="nav justify-content-end">
+    <li class="nav-item">
+      <a  class="nav-link"  href="#">Links1</a>
+    </li>
+    <li class="nav-item">
+      <a  class="nav-link "   href="#">Links1</a>
+    </li>
+    <li class="nav-item">
+      <a  class="nav-link"   href="#">Links1</a>
+    </li>
+    <li class="nav-item">
+      <a  class="nav-link disabled"   href="#">Links1</a>
+    </li>
+  </ul>
+</div>
+
+<h1>Vertical Nav</h1>
+
+
+
+
+
+</body>
+</html>
